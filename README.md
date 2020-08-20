@@ -7,7 +7,9 @@ This is a Work-in-Progress
 
 Directions:
 
-First, make sure the CSV file with your projections are in the same folder as the code and named "player_rankings.csv". Note that the logic of the optimization works based on season-long point projections for each draftable player. I wrote the code around GridironAI.com's projections, and would highly recommend using those, but as they are proprietary I did not include them in this GitHub. If you use a different projections file, make sure to edit the CSV sections accordingly.
+The logic of the optimization works based on season-long point projections for each draftable player. I wrote the code around GridironAI.com's projections, and would highly recommend using those (the most recent projections at the time of writing this are included in the GitHub). Note that at the time of writing this, the projections did not include rookies. If you use wish to use a different projections file, make sure to edit the CSV section of the code accordingly. Huge shoutout to the folk over at GridironAI for the projections.
+
+In the first GUI, select the scoring format and the number of players that you wish to draft per position. Make sure to enter the number in number format, ie "5" and not "Five".
 
 The drafting tool GUI is designed to be used side by side with your drafting window. Enter the names of the players drafted by other team owners as they come off the draft board in the text box, and when it is your turn to draft click the "Draft a Player" button to recieve the optimized pick for yourself.
 
